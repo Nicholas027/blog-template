@@ -10,6 +10,7 @@ const customErrorHandler = require("./Middlewares/Errors/customErrorHandler")
 dotenv.config();
 connectDatabase()
 
+//configure app
 const app = express() ;
 
 app.use(express.json())
